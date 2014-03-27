@@ -31,7 +31,7 @@ Ext.define('ExtMVC.controller.Usuario', {
            },
  
            editarUsuario: function(grid, record) {
-                var edit = Ext.create('Ext.MVC.usuario.Formulario').show();
+                 var edit = Ext.create('Ext.MVC.usuario.Formulario').show();
  
                 if(record){
                    edit.down('form').loadRecord(record);
@@ -51,7 +51,7 @@ Ext.define('ExtMVC.controller.Usuario', {
                }
            },
 
-           deleteUsuario: fuction(button) {
+           deleteUsuario: function(button) {
 
            var grid = this.getUsuariogrid(),
            record = grid.getselectionModel().getselection(),

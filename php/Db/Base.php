@@ -14,7 +14,7 @@ abstract class Base {
 
         $this->config['adapter'] = "pgsql";
         $this->config['hostname'] = "localhost";
-        $this->config['dbname'] = "Integrador";
+        $this->config['dbname'] = "cursoextjs";
         $this->config['user'] = "postgres";
         $this->config['password'] = "m2smart";
 
